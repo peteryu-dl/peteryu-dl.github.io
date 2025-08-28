@@ -13,3 +13,4 @@ This site is automatically deployed via GitHub Actions whenever a new commit is 
 ## Usage
 
 Feel free to browse the code. The main content is in `index.html` and the styling is in `style.css`.
+
