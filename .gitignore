@@ -1,0 +1,33 @@
+# This repository is intended to publish only the built GitHub Pages output.
+# Keep local source, preserved content, dependencies, and working files on this
+# machine unless explicitly force-added.
+
+*
+
+# Files that may be committed.
+!.gitignore
+!docs/
+!docs/**
+
+# Never publish local dependencies/build caches.
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+**/out/
+build/
+**/build/
+.vercel/
+**/.vercel/
+
+# Logs and local environment.
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env*
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+handoff.md
